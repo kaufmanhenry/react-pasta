@@ -1,2 +1,4 @@
-# react-pasta
-🍝 Simple, stateless React components.
+# react-pasta https://img.shields.io/travis/hcjk/react-pasta.svg
+Simple, stateless React components.
+
+🍝
