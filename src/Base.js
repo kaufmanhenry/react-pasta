@@ -16,7 +16,7 @@ const Base = (props) => {
 
   const Component = propertyType || 'div'
 
-  return <Component {...props} style={style}>{children}</Component>
+  return <Component style={style}>{children}</Component>
 }
 
 Base.propTypes = {
