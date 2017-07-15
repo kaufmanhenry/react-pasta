@@ -1,0 +1,39 @@
+{
+  "name": "react-pasta",
+  "version": "1.0.0",
+  "description": "Simple, stateless React components.",
+  "main": "index.js",
+  "repository": "https://github.com/hcjk/react-pasta.git",
+  "author": "Henry Kaufman <hkaufman19@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-2": "^6.3.13",
+    "eslint": "3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-config-standard-react": "^5.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "5.1.0",
+    "eslint-plugin-node": "^5.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.1.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "html-webpack-plugin": "^2.28.0",
+    "path": "0.12.7",
+    "webpack": "2.4.1",
+    "webpack-dev-middleware": "^1.11.0",
+    "webpack-dev-server": "2.4.2",
+    "webpack-hot-middleware": "^2.18.0"
+  }
+}
