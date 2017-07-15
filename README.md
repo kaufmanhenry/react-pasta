@@ -1,4 +1,4 @@
-# react-pasta https://img.shields.io/travis/hcjk/react-pasta.svg
+# react-pasta [![Build Status](https://travis-ci.org/hcjk/react-pasta.svg?branch=master)](https://travis-ci.org/hcjk/react-pasta)
 Simple, stateless React components.
 
 🍝
