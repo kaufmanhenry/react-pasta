@@ -6,7 +6,8 @@ const Base = (props) => {
   const {
     propertyType,
     baseStyle,
-    children
+    children,
+    href
   } = props
 
   const style = {
@@ -16,16 +17,18 @@ const Base = (props) => {
 
   const Component = propertyType || 'div'
 
-  return <Component style={style}>{children}</Component>
+  return <Component href={href} style={style}>{children}</Component>
 }
 
 Base.propTypes = {
   propertyType: PropTypes.string,
   children: PropTypes.oneOfType([
     PropTypes.element,
-    PropTypes.string
+    PropTypes.string,
+    PropTypes.node
   ]).isRequired,
-  baseStyle: PropTypes.object
+  baseStyle: PropTypes.object,
+  href: PropTypes.string
 }
 
 Base.defaultProps = {

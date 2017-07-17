@@ -4,6 +4,7 @@ import Base from './Base'
 const Card = (props) => (
   <Base {...props}
     className='card'
+    propertyType='p'
     baseStyle={{
       lineHeight: 1.6
     }} />
