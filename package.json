@@ -1,6 +1,6 @@
 {
   "name": "react-pasta",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple, stateless React components.",
   "main": "index.js",
   "repository": "https://github.com/hcjk/react-pasta.git",
