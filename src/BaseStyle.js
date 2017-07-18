@@ -5,9 +5,15 @@ export const baseColors = {
   white: '#fff',
   gray: '#ddd',
   midgray: '#aaa',
+
   blue: '#0074D9',
+  darkblue: '#005BC0',
+
   red: '#FF4136',
-  green: '#2ECC40'
+  darkred: '#E6281D',
+
+  green: '#2ECC40',
+  darkgreen: '#15B327'
 }
 
 export const typeScale = [
