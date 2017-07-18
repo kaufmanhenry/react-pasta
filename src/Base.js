@@ -7,7 +7,8 @@ const Base = (props) => {
     propertyType,
     baseStyle,
     children,
-    href
+    href,
+    onClick
   } = props
 
   const style = {
@@ -17,7 +18,7 @@ const Base = (props) => {
 
   const Component = propertyType || 'div'
 
-  return <Component href={href} style={style}>{children}</Component>
+  return <Component href={href} style={style} onClick={onClick}>{children}</Component>
 }
 
 Base.propTypes = {
@@ -28,7 +29,8 @@ Base.propTypes = {
     PropTypes.node
   ]).isRequired,
   baseStyle: PropTypes.object,
-  href: PropTypes.string
+  href: PropTypes.string,
+  onClick: PropTypes.func
 }
 
 Base.defaultProps = {

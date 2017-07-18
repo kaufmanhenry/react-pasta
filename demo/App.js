@@ -4,6 +4,7 @@ import Heading from '../src/Heading'
 import Card from '../src/Card'
 import Text from '../src/Text'
 import Link from '../src/Link'
+import Button from '../src/Button'
 
 const App = () => {
   const basic = {
@@ -21,6 +22,8 @@ const App = () => {
           fermentum arcu. Integer placerat dui vel lacinia vestibulum.
         </Text>
         <Link href='#'>Hi</Link>
+        <br />
+        <Button onClick={() => alert('This is a button!')}>This is a button</Button>
       </Card>
     </Container>
   )
