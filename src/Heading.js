@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Base from './Base'
-import BaseStyle from './BaseStyle'
+import { typeScale } from './BaseStyle'
 
 const Heading = (props) => {
   const { level } = props
@@ -12,7 +12,7 @@ const Heading = (props) => {
       className={`Heading${level}`}
       propertyType={`h${level}`}
       baseStyle={{
-        fontSize: BaseStyle.typeScale[level - 1]
+        fontSize: typeScale[level - 1]
       }}
     />)
 }

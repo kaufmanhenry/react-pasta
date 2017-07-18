@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import BaseStyle from './BaseStyle'
+import { fontFamily } from './BaseStyle'
 
 const Base = (props) => {
   const {
@@ -11,7 +11,7 @@ const Base = (props) => {
   } = props
 
   const style = {
-    ...BaseStyle,
+    fontFamily,
     ...baseStyle
   }
 

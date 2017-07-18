@@ -1,6 +1,6 @@
-const fontFamily = '-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif'
+export const fontFamily = '-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif'
 
-const baseColors = {
+export const baseColors = {
   black: '#111',
   white: '#fff',
   gray: '#ddd',
@@ -10,7 +10,7 @@ const baseColors = {
   green: '#2ECC40'
 }
 
-const typeScale = [
+export const typeScale = [
   48,
   36,
   24,
@@ -18,9 +18,3 @@ const typeScale = [
   18,
   16
 ]
-
-export default {
-  fontFamily,
-  baseColors,
-  typeScale
-}
