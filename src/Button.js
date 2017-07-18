@@ -26,7 +26,7 @@ Button.propTypes = {
 }
 
 Button.defaultProps = {
-  buttonType: 'blue',
+  buttonType: 'midgray',
   large: false,
   focus: false
 }
