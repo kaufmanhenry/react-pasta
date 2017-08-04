@@ -5,6 +5,7 @@ import Card from '../src/Card'
 import Text from '../src/Text'
 import Link from '../src/Link'
 import Button from '../src/Button'
+import Input from '../src/Input'
 
 const App = () => {
   const basic = {
@@ -36,6 +37,8 @@ const App = () => {
         <Link href='#'>Hi</Link>
         <br />
         <Button onClick={() => window.alert('This is a button!')}>This is a button</Button>
+        <br />
+        <Input placeholder='Input' />
       </Card>
     </Container>
   )

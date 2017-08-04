@@ -8,7 +8,8 @@ const Base = (props) => {
     baseStyle,
     children,
     href,
-    onClick
+    onClick,
+    placeholder
   } = props
 
   const style = {
@@ -18,7 +19,7 @@ const Base = (props) => {
 
   const Component = propertyType || 'div'
 
-  return <Component href={href} style={style} onClick={onClick}>{children}</Component>
+  return <Component href={href} style={style} onClick={onClick} placeholder={placeholder}>{children}</Component>
 }
 
 Base.propTypes = {
@@ -27,10 +28,11 @@ Base.propTypes = {
     PropTypes.element,
     PropTypes.string,
     PropTypes.node
-  ]).isRequired,
+  ]),
   baseStyle: PropTypes.object,
   href: PropTypes.string,
-  onClick: PropTypes.func
+  onClick: PropTypes.func,
+  placeholder: PropTypes.string
 }
 
 Base.defaultProps = {
