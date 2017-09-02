@@ -19,7 +19,7 @@ const App = () => {
       </Heading>
       <Card>
         <Heading level={3}>
-          Text without measure
+          Text with measure
         </Heading>
         <Text measured>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum orci nec dui gravida, at viverra lorem fringilla. Nam ac faucibus sapien, ullamcorper
@@ -27,7 +27,7 @@ const App = () => {
         </Text>
         <br />
         <Heading level={3}>
-          Text with measure
+          Text without measure
         </Heading>
         <Text>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum orci nec dui gravida, at viverra lorem fringilla. Nam ac faucibus sapien, ullamcorper

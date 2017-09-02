@@ -8,7 +8,9 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server",
-    "test": "ava --verbose"
+    "test": "ava --verbose",
+    "build": "NODE_ENV=production webpack -p",
+    "prepublish": "babel src -d dist"
   },
   "ava": {
     "require": [
