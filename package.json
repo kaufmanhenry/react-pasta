@@ -2,7 +2,7 @@
   "name": "react-pasta",
   "version": "1.0.2",
   "description": "Simple, stateless React components.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "https://github.com/hcjk/react-pasta.git",
   "author": "Henry Kaufman <hkaufman19@gmail.com>",
   "license": "MIT",
